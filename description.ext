@@ -1,0 +1,105 @@
+// Mission Header
+class Header
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 25;
+};
+
+respawn = "BASE";
+respawndelay = 4;
+disabledAI = 1;
+
+
+loadScreen = "pics\loadscreen.paa";
+
+#include "bon_settings\dialog\bon_Common.hpp"
+#include "bon_settings\dialog\bon_Settings.hpp"	
+#include "description_mission.hpp"
+#include "R3F_ARTY_AND_LOG\desc_include.h"
+
+
+
+class RscTitles
+{
+	#include "R3F_ARTY_AND_LOG\desc_rsct_include.h"
+
+titles[] ={Bild1};
+class Bild1
+{
+idd=-1;
+movingEnable = true;
+duration=10; // Dauer der Einblendung
+fadein=2; // Einfadezeit
+name = "Bild1"; // Name im Editor
+controls[]={Picture};
+class Picture : RscPicture
+{
+x = 0.0; // X-Achse
+y = 0.0; // Y-Achse
+w = 0.7; // Fensterbreite
+h = 0.5; // Fensterhöhe
+text = "pics\logo.paa"; // Die Grafik mit Pfad
+sizeEx = 0.04;
+style=48;
+};
+};
+
+
+};
+
+
+//parameter
+
+class Params
+{
+    class EpiUse //paramsArray[1]
+  {
+    title = "Real Medics";
+    values[] = {0,1};
+    texts[] = {"Aus","Ein"};
+    default = 0;
+  };
+    class No3rdPerson //paramsArray[2]
+  {
+    title = "Only First Person";
+    values[] = {0,1};
+    texts[] = {"Aus","Ein"};
+    default = 1;
+  };
+
+
+
+
+};
+
+
+class CfgSounds
+{
+	// List of sounds (.ogg files without the .ogg extension)
+	sounds[] = {suicide};
+
+	// Definition for each sound
+	class suidice_bomber
+	{
+		name = "suidice_bomber"; // Name for mission editor
+		sound[] = {\sounds\suicide.ogg, db+1, 1,150};
+		titles[] = {	};
+	};
+	
+};
+
+
+
+
+class CfgMusic
+{
+ tracks[]={};
+
+ class load_us_music
+ {
+  name = "load_us_music";
+  sound[] = {"music\load_us_music.ogg", db+0, 1.0};
+
+ };
+};

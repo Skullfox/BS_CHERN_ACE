@@ -1,0 +1,1 @@
+["marker","radius"] execvm "xyz".sqf";

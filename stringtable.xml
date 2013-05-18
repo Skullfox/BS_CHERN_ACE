@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Burning Sky">
+<Package name="Burning Sky Framework">
+<Container name="Text">
+
+<Key ID="str_get_new_mission">
+<English>Missionfiles are transmitted</English>
+<German>Missionsdaten werden uebermittelt</German>
+</Key>
+
+<Key ID="str_weaponcache">
+<English>Weaponcache</English>
+<German>Waffenlager</German>
+</Key>
+
+<Key ID="str_m_weaponcache">
+<English>Search and destroy the weapncache.</English>
+<German>Suchen und zerstoeren sie das Waffenlager.</German>
+</Key>
+
+<Key ID="str_enemyvillage">
+<English>Captured village</English>
+<German>Feindliches Lager</German>
+</Key>
+
+<Key ID="str_m_enemyvillage">
+<English>The enemy hold position in a village.clean it. </English>
+<German>Der Feind eine Ortschaft eingenommen,befreien sie diese.</German>
+</Key>
+
+<Key ID="str_hostage">
+<English>Secure hostage</English>
+<German>Geisel befreien</German>
+</Key>
+
+<Key ID="str_m_hostage">
+<English>The enemy taken hostages,secure all and bring them back to HQ. </English>
+<German>Der Feind hat Geiseln genommen.Befreien sie alle und bringen sie sie zum HQ.</German>
+</Key>
+
+<Key ID="str_drugs">
+<English>Drug tranpsport</English>
+<German>Drogen lieferung</German>
+</Key>
+
+<Key ID="str_m_drugs">
+<English>The enemy get an new drug transport,they hide it in crates in the village. </English>
+<German>Der Feind hat eine neue Drogenlieferung erhalten und in Kisten in der Stadt versteckt.Zerstören sie alle Drogen</German>
+</Key>
+
+<Key ID="str_h_supplies">
+<English>Hold position. </English>
+<German>Stellung halten.</German>
+</Key>
+
+<Key ID="str_supplies">
+<English>Supply transport</English>
+<German>Hilfsgüter verteilen</German>
+</Key>
+
+<Key ID="str_m_supplies">
+<English>The UNO requestet an supply tranport,we help them.</English>
+<German>Die UNO hat uns um hilfe bei der verteilung von hilfsgüter gebeten.</German>
+</Key>
+
+<Key ID="str_radiotower">
+<English>Destroy radiotower</English>
+<German>Funkturm zerstören</German>
+</Key>
+
+<Key ID="str_m_radiotower">
+<English>The enemy build an mobil radiotower,search and destroy it.</English>
+<German>Der Feind hat einen mobilen Funkturm aufgebaut,zerstören sie diesen.</German>
+</Key>
+
+<Key ID="str_uav">
+<English>Enemy UAV</English>
+<German>Feindliche Drohne</German>
+</Key>
+
+<Key ID="str_m_uav">
+<English>The enemy repaired an old russian UAV,destroy it before the can use it.</English>
+<German>Der Feind hat eine alte Russische Drohne repariert,zerstören sie diese bevor sie abhebt.</German>
+</Key>
+
+<Key ID="str_bomb_attack">
+<English>Bomb attack</English>
+<German>Bombenattentat</German>
+</Key>
+
+<Key ID="str_m_bomb_attack">
+<English>The enemy has placed several hidden bombs,search and defuse all of them.</English>
+<German>Der Feind hat mehere Bomben versteckt suchen und entschärfen sie alle.</German>
+</Key>
+
+<Key ID="str_at_camp">
+<English>AT Camp</English>
+<German>AT Camp</German>
+</Key>
+
+<Key ID="str_m_at_camp">
+<English>The enemy build up a small AT camp,search an d destroy it.</English>
+<German>Der Feind hat eine Panzerabwehrstellung errichtet,suchen und zerstören sie diese.</German>
+</Key>
+
+<Key ID="str_uavw">
+<English>AT Camp</English>
+<German>AT Camp</German>
+</Key>
+
+<Key ID="str_m_uavw">
+<English>The enemy shoot down our UAV,search and destroy it before the can repair it.</English>
+<German>Der Feind hat eine unserer UAV abgeschossen,suchen und zerstören sie diese bevor sie repariert wird.</German>
+</Key>
+
+<Key ID="str_assassinate_officer">
+<English>Enemy Officer</English>
+<German>General töten</German>
+</Key>
+
+<Key ID="str_m_assassinate_officer">
+<English>We received information about an enemy officer arrived,find and assassinate him.</English>
+<German>Wir haben neue informationen das ein General kürzlich eingetroffen ist,töten sie diesen.</German>
+</Key>
+
+<Key ID="str_arty_1">
+<English>Enemy mortar position</English>
+<German>Feindliche Mörserstellung</German>
+</Key>
+
+<Key ID="str_m_arty_1">
+<English>The enemy build up several mortars,search and destroy it.</English>
+<German>Der Feind hat eine Mörserstellung aufgebaut suchen und zertören sie diese.</German>
+</Key>
+
+<Key ID="str_v_tank">
+<English>Enemy tank</English>
+<German>Feindlicher Panzer</German>
+</Key>
+
+<Key ID="str_m_v_tank">
+<English>The enemy repair an old tank,destroy it.</English>
+<German>Der Feind repariert einen alten Panzer,zersören sie diesen bevor er Ensatzbereit ist.</German>
+</Key>
+
+<Key ID="str_aa">
+<English>Enemy AA position</English>
+<German>Feindliche AA-Stellung</German>
+</Key>
+
+<Key ID="str_m_aa">
+<English>The enemy build up an AA postion,search and destroy it.</English>
+<German>Der Feind hat eine AA-Stellung aufgebaut,suchen und zerstoeren sie diese.</German>
+</Key>
+
+<Key ID="str_d_heli">
+<English>Destroy helicopter</English>
+<German>Helikopter sprengen</German>
+</Key>
+
+<Key ID="str_m_d_heli">
+<English>The enemy shoot down our helicopter.We already rescued our troops but we havent destroyed it.Go back and destroy it.</English>
+<German>Der Feind hait einen unserer Helikopter abgeschossen.Wir konnten bereits alle bergen hatten aber nicht die Möglichkeit ihn zu sprengen.Gehen sie zurück und sprengen sie ihn.</German>
+</Key>
+
+<Key ID="str_radiostation">
+<English>Destroy a radiostation</English>
+<German>Radiostation spregnen</German>
+</Key>
+
+<Key ID="str_m_radiostation">
+<English>The enemy build up a mobile radiostation to to send out his propaganda,search and destroy it.</English>
+<German>Der Feind hat eine Provisorische Radiostation aufgabaut um seine Propaganda zu verbreiten, suchen und zerstören sie diese Anlage.</German>
+</Key>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

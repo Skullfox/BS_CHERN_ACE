@@ -1,0 +1,1 @@
+execVM "public\projektor\Intel_init.sqf";
